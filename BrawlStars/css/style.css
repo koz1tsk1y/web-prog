@@ -1,0 +1,358 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 24px;
+	letter-spacing: 0.1em;
+}
+
+/*-----Стили для маркированного списка (Верхнее меню)-----*/
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*-----Ширина содержимого всего сайта-----*/
+.container {
+	width: 1170px;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+
+
+
+.UpUpUp img {
+    width: 60px;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    opacity: 40%;
+    transition: all 0.3s ease 0s;
+}
+
+.UpUpUp img:hover {
+    opacity: 100%;
+    transform: rotate(-90deg);
+}
+
+
+
+/*Перва страница*/
+.header {
+    padding-top: 25px;
+    padding-bottom: 100px;
+    background: black;
+}
+
+.header a {
+	color: white; /*белый цвет текста для страницы*/
+}
+
+.header .menu {
+	display: flex; /*располажить в ряд ссылки в верхнем меню шапки*/
+}
+
+/*Стили для ссылок верхнего меню*/
+.header .menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 50px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.header .menu li a:hover {
+	color: #FFBC21;
+}
+
+.header .cap {
+	display: flex;
+	align-items: center;
+}
+
+.header .cap .logo {
+    width: 200px;
+	margin-right: 260px;
+}
+
+.header .offer {
+	margin-top: 150px;
+    display: flex;
+}
+
+.header .offer img {
+    width: 550px;
+}
+
+
+.header .offer p {
+	font-size: 36px;
+}
+	#headP {
+		font-size: 24px;
+	}
+
+
+.header .btn {
+    margin-top: 70px;
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	padding: 17px 47px;
+    background: #FFBC21;
+    color: black;
+	width: max-content;
+	transition: all 0.3s ease;
+    border-radius: 15px;
+	text-decoration: none;
+    box-shadow: 0px 0px 30px 5px #FFBC21;
+}
+
+.header .btn:hover {
+    background: #C85E3F;
+    box-shadow: 0px 0px 30px 5px #C85E3F;
+}
+
+
+
+
+/*Вторая страница*/
+.aboutF {
+    background: url('../img/pg2/bgpg.png');
+    padding-top: 100px;
+}
+
+.aboutF .titlePage{
+    text-align: center;
+    color: black;
+}
+
+.aboutF hr {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.aboutF .tableNews {
+    column-count: 3;
+    column-width: auto;
+}
+
+.aboutF .tableNews .itemNews {
+    width: 350px;
+    margin-bottom: 70px;
+    text-align: justify;
+
+    color: black;
+    font-size: 17px;
+
+    box-shadow: 7px 7px 0px 1px #bbbbbb7e;
+}
+
+.tableNews .itemNews .imageNews {
+    height: 200px;
+    overflow: hidden;
+}
+
+.tableNews .itemNews .imageNews img {
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.tableNews .itemNews .imageNews img:hover {
+    transform: scale(1.1);
+}
+
+.tableNews .itemNews .textNews {
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    height: 200px;
+}
+
+.tableNews .itemNews .imageNews, .tableNews .itemNews .textNews {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background: white;
+}
+
+
+
+
+/*Третья страница*/
+.aboutS {
+    background: url('../img/pg3/Desktop.png') repeat no-repeat;
+    padding: 100px 0px;
+    
+}
+
+.aboutS .headerPage img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+.aboutS .headerPage p {
+    font-size: 48px;
+    font-weight: bold;
+}
+    #dateUpdata {
+        font-size: 20px;
+    }
+
+
+
+.aboutS .update {
+    margin-top: 50px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.aboutS .update hr {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.aboutS .update .itemUpdate {
+    display: flex;
+}
+
+.aboutS .update .itemUpdate .textPart, .aboutS .update .itemUpdate .imgPart {
+    width: 50%;
+} 
+
+.aboutS .update .itemUpdate .textPart {
+    color: black;
+}
+
+.aboutS .update .itemUpdate .imgPart {
+    text-align: center;
+}
+
+.aboutS .update .itemUpdate .imgPart img{
+    width: 400px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.aboutS .update .itemUpdate .imgPart img:hover {
+    transform: scale(1.1);
+}
+
+
+/*Четвётрая страница со слайдером*/
+.sliderPage {
+    background: #000;
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+
+.sliderPage .aboutHero h2{
+    text-align: center;
+}
+
+.sliderPage .aboutHero {
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.countForHero .itemCount {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.countForHero .itemCount img {
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.countForHero .itemCount img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/*Пятая страница с формой*/
+/*Страница с формой*/
+.footer {
+    background: url('../img/pg4/Brawl-Stars-Wallpapers-Wallpaper-Cave.jpg');
+    background-size: cover;
+    padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.footer .myForm {
+    display: block;
+	margin: auto;
+	text-align: center;
+	width: 450px;
+	padding: 15px 5px;
+	background-color: #123b31a4;
+	border-radius: 20px;
+    box-shadow: 5px 5px 30px 5px #DEF7A7;
+}
+
+.footer .myForm input {
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    background: none;
+    border-style: none none solid solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+.footer .myForm img {
+    width: 300px;
+    margin: -90px 0 0 0;
+}
+
+.footer .myForm h1 {
+    color: black;
+}
+
+.footer .myForm .dws-submit {
+    font-size: 24px;
+    background-color: #DE4152;
+    border-style: solid;
+    border-color: #6B0818;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    transition: all 0.3s ease 0s;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+	color: rgb(0, 0, 0);
+}
+
+.footer .myForm .dws-submit:hover {
+    border-color: #DE4152;
+    background-color: #6B0818;
+    cursor: pointer;
+}
+
+.footer .myForm .socialLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .myForm .socialLinks img {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px;
+
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.footer .myForm .socialLinks img:hover {
+    transform: scale(1.1);
+}

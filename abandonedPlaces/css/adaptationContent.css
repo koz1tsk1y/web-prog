@@ -1,0 +1,44 @@
+.sliderPage .replacingSlider {
+    display: none;
+}
+
+.sliderPage .replacingSlider .itemReplacing .wrapperImgP {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.sliderPage .replacingSlider .itemReplacing .wrapperImgP p {
+    width: 50%;
+    margin-top: 0;
+}
+
+.sliderPage .replacingSlider .itemReplacing .wrapperImgP img {
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+.footer .headerFormPhone {
+    display: none;
+}
+
+.footer .headerFormPhone {
+    margin-bottom: 30px;
+}
+
+.footer .headerFormPhone h3,
+.footer .headerFormPhone p {
+    text-align: center;
+    color: #337AB7;
+    text-shadow: 1px 1px #000;
+}
+
+.footer .headerFormPhone h3 {
+    font-size: 50px;
+}
+.footer .headerFormPhone p {
+    font-weight: 600;
+}

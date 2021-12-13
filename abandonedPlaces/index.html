@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>САМЫЕ ЗАВОРАЖИВАЮЩИЕ ЗАБРОШЕННЫЕ МЕСТА НА ПЛАНЕТЕ</title>
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:ital@0;1&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/upBtn.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/myAlert.css">
+    <link rel="stylesheet" href="css/burgerMenu.css">
+    <link rel="stylesheet" href="css/adaptationContent.css">
+    <link rel="stylesheet" href="css/adaptation.css">
+
+    <!-- <link rel="shortcut icon" href="/img/logo/logo1.png" type="image/png"> -->
+
+</head>
+<body>
+    
+    <!-- Верхнее меню для мониторов ПК -->
+    <div class="nav">
+        <div class="container">
+            <a href="#header"><img src="img/logo/logo4.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="#header" class="aMain">ГЛАВНАЯ</a><hr class="hrMain"></li>
+                <li><a href="#servicesPage" class="aAbout">УСЛУГИ</a><hr class="hrAbout"></li>
+                <li><a href="#aboutPage" class="aPopul">ПРО ЗАБРОШКИ</a><hr class="hrPopul"></li>
+                <li><a href="#sliderPage" class="aTop">ТОП</a><hr class="hrTop"></li>
+                <li><a href="#footer" class="aFeedback">ОБРАТНАЯ СВЯЗЬ</a><hr class="hrFeedback"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Навигационное меню "бургер" для мобильных устройств -->
+    <div class="navAdaptation">
+        <nav role="navigation">
+            <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="#header" class="aMain">ГЛАВНАЯ</a><hr class="hrMain"></li>
+                <li><a href="#servicesPage" class="aAbout">УСЛУГИ</a><hr class="hrAbout"></li>
+                <li><a href="#aboutPage" class="aPopul">ПРО ЗАБРОШКИ</a><hr class="hrPopul"></li>
+                <li><a href="#sliderPage" class="aTop">ТОП</a><hr class="hrTop"></li>
+                <li><a href="#footer" class="aFeedback">ОБРАТНАЯ СВЯЗЬ</a><hr class="hrFeedback"></li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!-- Первая страница с видео-заставкой -->
+    <header id="header" class="header">
+        <div class="container">
+            <h1>
+                САМЫЕ ЗАВОРАЖИВАЮЩИЕ ЗАБРОШЕННЫЕ МЕСТА НА <br>
+                <span>ПЛАНЕТЕ</span>
+            </h1>
+            <a href="#servicesPage">Читать далее...</a>
+        </div>
+        <video class="full-screen__video" preload="auto" autoplay muted loop>
+            <source src="img/page1/bg1.mp4" type="video/mp4">
+        </video>
+    </header>
+
+
+
+    <!-- Вторая страница. Страница с услугами -->
+    <section id="servicesPage" class="servicesPage">
+        <div class="container">
+            <h2>Что вы получаете обращаясь к<br><span>нам</span></h2>
+            <hr>
+            <div id="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>незабываемый тур</h4>
+                        <p>Необычный, завораживающий, экстремальный и незабываемый тур по самым красивым 
+                            заброшенным местам по доступной цене.</p>
+                    </div>
+                </div>
+                <!-- Еще события -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-heartbeat"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Гарантию</h4>
+                        <p>Гарантию сохранения здоровья, жизни и безопасности на время всего сотрудничества.</p>
+                    </div>
+                </div>
+                <!-- Еще события -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-hourglass-half"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Эмоции</h4>
+                        <p>Широкий спектр положительных эмоций, который останется с вами на долгое время.</p>
+                    </div>
+                </div>
+                <!-- Еще события -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa fa-camera-retro"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h4>Память</h4>
+                        <p>Возможность сделать необычные фотографии, которым позавидует любой ваш знакомый.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Третья страница "про заброшки" -->
+    <section id="aboutPage" class="aboutPage">
+        <div class="container">
+            <h1>Заброшки - мегапопулярны. <br> 
+                Почему людей привлекают руины?!
+            </h1>
+            <ul>
+                <li>
+                    <h2>Простое любопытство</h2>
+                    <p>
+                        Человек от природы очень любопытен. А руины — источник тайны.
+                        Причем, заметим, это справедливо не только для нашего поколения, 
+                        но на полотнах живописцев прошлых веков очень часто изображались разрушенные 
+                        замки, античные постройки.
+                    </p>
+                    <p class="imgP">
+                        <img src="img/page3/11.jpg" alt="picture Jz.Gandi">
+                        Эта картина Джозефа Ганди. 
+                        Он нарисовал только что построенное здание Банка в виде руин. 
+                        Причем заказ сделал его архитектор.
+                    </p>
+                    <p>
+                        Руины казались очень загадочными, в период романтизма в искусстве их вовсе идеализировали. 
+                        Словно внутри скрывается какая-то тайна - замок спящей принцессы, к примеру. 
+                        А еще там можно отыскать сокровища и тайные клады.
+                        Кстати, и этот момент — меркантильный тоже нельзя исключать. 
+                        Найти ценность в пыли — что может быть притягательнее?
+                    </p>
+                </li>
+                <li>
+                    <h2>Антитеза порядку</h2>
+                    <p>
+                        Мы живем в упорядоченном мире, наши дороги прямые, 
+                        наши здания из бетона с ровным рядом окон. Возможно подсознательно что-то 
+                        протестует против такого слишком разлинованного мира. И вот мы видим, как 
+                        природа пожирает все эти труды.
+                    </p>
+                    <p class="imgP">
+                        <img src="img/page3/22.jpg" alt="Abhaziy">
+                        Абхазия.
+                    </p>
+                    <p>
+                        Ведь с точки зрения природы, это противоестественно.
+                    </p>
+                </li>
+                <li>
+                    <h2>Возможность возвыситься над быстротечностью жизни</h2>
+                    <p>
+                        Сознание человека может возвыситься над обыденностью. 
+                        И именно в такие местах понимаешь быстротечность жизни. 
+                        Эти руины показывают, что станет с миром, когда нас всех не будет.
+                        <img src="img/page3/33.jpg" alt="children">
+                        Регулярно под постами о заброшках люди спорят, насколько этично 
+                        пробираться в такие здания и что-то там искать. Убежден, что если хозяев нет, 
+                        то нет ничего плохого в желании сохранить вещи, в которых кто-то вкладывал 
+                        свой труд, мастерство, кто-то бережно хранил и лелеял при жизни. 
+                        Не это ли будет сохранением памяти о них?
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    
+    <!-- Четвётрая страница со слайдером -->
+    <section id="sliderPage" class="sliderPage">
+        <div class="container">
+            <h2>САМЫЕ ЗАХВАТЫВАЮЩИЕ ЗАБРОШЕННЫЕ МЕСТА НА ПЛАНЕТЕ</h2>
+            
+            <!--  -->
+            <div class="slider">
+                <div class="navSlider">
+                    <div class="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>            
+                    </div>    
+                    <div class="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>                
+                    </div>
+                </div>
+                <div class="item is-active" style="background-image: url(img/page4/1/bg.jpg)">
+                    <div class="content">
+                        <div class="item-title">Припять, Украина.</div>
+                        <div class="item-text">
+                            Ныне это город-призрак в Киевской области, 
+                            который был основан в 1970 году в связи со строительством Чернобыльской 
+                            атомной станции, а опустел в апреле 1986 года после взрыва одного из её 
+                            энергоблоков. На момент катастрофы в Припяти проживало порядка 43960 человек, 
+                            включая 15500 детей. Большинство горожан являлось сотрудниками злополучного объекта.
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <div class="grid">
+                            <div class="img img-1">
+                                <img src="img/page4/1/1.jpg"/>
+                            </div>
+                            <div class="img img-2">
+                                <img src="img/page4/1/2.jpg"/>
+                            </div>
+                            <div class="img img-3">
+                                <img src="img/page4/1/3.jpg"/>
+                            </div>
+                            <div class="img img-4">
+                                <img src="img/page4/1/4.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item" style="background-image: url(img/page4/2/bg.jpg)">
+                    <div class="content">
+                        <div class="item-title">Подземный алмазный рудник «Мир».</div>
+                        <div class="item-text">
+                            Он находится в посёлке Мирный Республики Саха (Якутия) в Западной Сибири. 
+                            Строго говоря, это месторождение и в наши дни активно разрабатывается, 
+                            поэтому заброшенным его назвать нельзя. Однако теперь добыча ведётся только под землёй, 
+                            а открытая часть рудника глубиной 525 метров и диаметром 1200 метров не используется 
+                            с 2001 года. Этот карьер является 4-м в мире по глубине после другого якутского 
+                            месторождения «Удачная», чилийского Чукикамата и американского Бингем-Каньон.
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <div class="grid">
+                            <div class="img img-1">
+                                <img src="img/page4/2/1.jpg"/>
+                            </div>
+                            <div class="img img-2">
+                                <img src="img/page4/2/2.jpg"/>
+                            </div>
+                            <div class="img img-3">
+                                <img src="img/page4/2/3.jpg"/>
+                            </div>
+                            <div class="img img-4">
+                                <img src="img/page4/2/4.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="item" style="background-image: url(img/page4/3/bg.jpg)">
+                    <div class="content">
+                        <div class="item-title">Психиатрическая лечебница Уилларда в Нью-Йорке.</div>
+                        <div class="item-text">
+                            Стоит ли объяснять причины того, почему здесь царит такая гнетущая атмосфера. 
+                            Учреждение было основано в 1869 году, года методы излечения душевных недугов 
+                            не отличались какой бы то ни было гуманностью. Больные находились в стенах 
+                            Уилларда не по собственной воле и подвергались довольно жестоким процедурам.
+                            Вот уже 20 лет клиника закрыта.
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <div class="grid">
+                            <div class="img img-1">
+                                <img src="img/page4/3/1.jpg"/>
+                            </div>
+                            <div class="img img-2">
+                                <img src="img/page4/3/2.jpg"/>
+                            </div>
+                            <div class="img img-3">
+                                <img src="img/page4/3/3.jpg"/>
+                            </div>
+                            <div class="img img-4">
+                                <img src="img/page4/3/4.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="item" style="background-image: url(img/page4/4/bg.jpg)">
+                    <div class="content">
+                        <div class="item-title">Дома НЛО в Саньчжи, Тайвань.</div>
+                        <div class="item-text">
+                            Также известны под названием «дома-тарелочки». Это так и не введённый в 
+                            эксплуатацию комплекс из 60 зданий в футуристическом дизайне.
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <div class="grid">
+                            <div class="img img-1">
+                                <img src="img/page4/4/1.jpg"/>
+                            </div>
+                            <div class="img img-2">
+                                <img src="img/page4/4/2.jpg"/>
+                            </div>
+                            <div class="img img-3">
+                                <img src="img/page4/4/3.jpg"/>
+                            </div>
+                            <div class="img img-4">
+                                <img src="img/page4/4/4.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="item" style="background-image: url(img/page4/5/bg.jpg)">
+                    <div class="content">
+                        <div class="item-title">Замок Миранда в Селе, Бельгия.</div>
+                        <div class="item-text">
+                            Построенное в 1886 году здание никем не обитаемо с 1991 года из-за правовых 
+                            разногласий между наследниками бывшего владельца и местным муниципалитетом.
+                        </div>
+                    </div>
+                    <div class="imgs">
+                        <div class="grid">
+                            <div class="img img-1">
+                                <img src="img/page4/5/1.jpg"/>
+                            </div>
+                            <div class="img img-2">
+                                <img src="img/page4/5/2.jpg"/>
+                            </div>
+                            <div class="img img-3">
+                                <img src="img/page4/5/3.jpg"/>
+                            </div>
+                            <div class="img img-4">
+                                <img src="img/page4/5/4.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            
+            <!--  -->
+            <div class="replacingSlider">
+                <div class="itemReplacing">
+                    <h2>Припять, Украина.</h2>
+                    <div class="wrapperImgP">
+                        <p>
+                            Ныне это город-призрак в Киевской области, 
+                            который был основан в 1970 году в связи со строительством Чернобыльской 
+                            атомной станции, а опустел в апреле 1986 года после взрыва одного из её 
+                            энергоблоков. На момент катастрофы в Припяти проживало порядка 43960 человек, 
+                            включая 15500 детей. Большинство горожан являлось сотрудниками злополучного объекта.
+                        </p>
+                        <img src="img/page4/1/2.jpg" alt="pripyt" class="imgReplacingSlider">
+                    </div>
+                </div>
+                <div class="itemReplacing">
+                    <h2>Подземный алмазный рудник «Мир».</h2>
+                    <div class="wrapperImgP">
+                        <p>
+                            Он находится в посёлке Мирный Республики Саха (Якутия) в Западной Сибири. 
+                            Строго говоря, это месторождение и в наши дни активно разрабатывается, 
+                            поэтому заброшенным его назвать нельзя. Однако теперь добыча ведётся только под землёй, 
+                            а открытая часть рудника глубиной 525 метров и диаметром 1200 метров не используется 
+                            с 2001 года. Этот карьер является 4-м в мире по глубине после другого якутского 
+                            месторождения «Удачная», чилийского Чукикамата и американского Бингем-Каньон.
+                        </p>
+                        <img src="img/page4/2/2.jpg" alt="" class="imgReplacingSlider">
+                    </div>
+                </div>
+                <div class="itemReplacing">
+                    <h2>Психиатрическая лечебница Уилларда в Нью-Йорке.</h2>
+                    <div class="wrapperImgP">
+                        <p>
+                            Стоит ли объяснять причины того, почему здесь царит такая гнетущая атмосфера. 
+                            Учреждение было основано в 1869 году, года методы излечения душевных недугов 
+                            не отличались какой бы то ни было гуманностью. Больные находились в стенах 
+                            Уилларда не по собственной воле и подвергались довольно жестоким процедурам.
+                            Вот уже 20 лет клиника закрыта.
+                        </p>
+                        <img src="img/page4/3/bg.jpg" alt="" class="imgReplacingSlider">
+                    </div>
+               <div class="itemReplacing">
+                    <h2>Дома НЛО в Саньчжи, Тайвань.</h2>
+                    <div class="wrapperImgP">
+                        <p>
+                            Также известны под названием «дома-тарелочки». Это так и не введённый в 
+                            эксплуатацию комплекс из 60 зданий в футуристическом дизайне.
+                        </p>
+                        <img src="img/page4/4/4.jpg" alt="" class="imgReplacingSlider">
+                    </div>
+                </div>
+                <div class="itemReplacing">
+                    <h2>Замок Миранда в Селе, Бельгия.</h2>
+                    <div class="wrapperImgP">
+                        <p>
+                            Построенное в 1886 году здание никем не обитаемо с 1991 года из-за правовых 
+                            разногласий между наследниками бывшего владельца и местным муниципалитетом.
+                        </p>
+                        <img src="img/page4/5/2.jpg" alt="" class="imgReplacingSlider">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Последняя страница (с формой) -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            
+            <!-- Заголовок для широкоформатных дисплеев -->
+            <div class="block-figure-1">
+                <div class="trapeze"></div>
+                <div class="trapeze"></div>
+                <div class="trapeze-txt">
+                    <h3>Обратная связь</h3>
+                    <p>Оставте свои данные и мы с вами свяжемся</p>
+                </div>
+            </div>
+
+            <!-- Заголовок для узкоформатных дисплеев -->
+            <div class="headerFormPhone">
+                <h3>Обратная связь</h3>
+                <p>Оставте свои данные и мы с вами свяжемся</p>
+            </div>
+
+            <form class="placeholder-form" onsubmit="return sendData(this)">
+                <div class="placeholder-container">
+                    <input type="text" placeholder=" "  class="nameInput"/>
+                    <label>Имя</label>
+                    <i class="fa fa-question helpName" title="Формат заполнения."></i>
+                </div>
+                <div class="placeholder-container">
+                    <input type="text" placeholder=" "  class="numberInput"/>
+                    <label>Номер телефона</label>
+                    <i class="fa fa-question helpNumber" title="Формат заполнения."></i>
+                </div>
+                <div class="placeholder-container">
+                    <input type="text" placeholder=" "  class="postInput"/>
+                    <label>Почта E@mail</label>
+                    <i class="fa fa-question helpPost" title="Формат заполнения."></i>
+                </div>      
+                <button type="submit" class="atuin-btn">Отправить</button>
+                <div class="myAlert">
+                    <div class="textAlert">
+                        <h3 class="headerAlert"></h3>
+                        <p class="pAlert"></p>
+                    </div>
+                </div>
+            </form>
+            <ul class="social-icons-1">
+                <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <!-- Кнопка "навверх" -->
+    <div class="upBtn">
+        <svg class="progress-ring">
+            <circle class="progress-ring__circle" cx="40" cy="40" r="37"/>
+        </svg>
+        <a href="#header"><i class="fa fa-angle-up"></i></a>
+    </div>
+    
+
+
+    <!-- Connecting scripts -->
+    <script src="js/menu.js"></script> 
+    <script src="js/slider.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/upBtn.js"></script>
+    <script src="js/anchor.js"></script>
+    <script src="js/validationForm.js"></script>
+    <script src="js/myAlert.js"></script>
+
+</body>
+</html>
